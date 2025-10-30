@@ -48,3 +48,80 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+# 📱 Task 1 – First Expo Mobile App
+
+## 🧭 Overview
+This task involved creating the first mobile app using **Expo Router**.  
+The setup was successfully tested via the **Expo Web Preview** since my mobile device camera is currently non-functional.
+
+---
+
+## ⚙️ Steps Followed
+1. Navigated to the project directory:
+   ```bash
+   cd C:\Users\Administrator\Desktop\prodev-mobile-setup
+Created the new Expo project:
+
+bash
+Copy code
+npx create-expo-app@latest prodev-mobile-app-0x00
+Moved into the new folder:
+
+bash
+Copy code
+cd prodev-mobile-app-0x00
+Launched the project in web mode:
+
+bash
+Copy code
+npx expo start
+and pressed w to open in browser.
+
+🧩 App Edit
+Opened:
+
+bash
+Copy code
+app/(tabs)/index.tsx
+and modified the title from:
+
+tsx
+Copy code
+<ThemedText type="title">Welcome!</ThemedText>
+to:
+
+tsx
+Copy code
+<ThemedText type="title">First App Created 👋</ThemedText>
+This confirmed live reload and successful rendering in Expo Web.
+
+🧪 Testing
+The app loaded correctly at:
+
+arduino
+Copy code
+http://localhost:19006
+and displayed:
+
+“First App Created 👋”
+
+🔁 Reset Project Command
+Executed:
+
+bash
+Copy code
+npm run reset-project
+Observation:
+This command restructured the app, cleaning the /app directory and restoring the original template — helpful for fresh setups.
+
+🧠 Conclusion
+Task 1 successfully completed:
+
+Expo app scaffolded using Router template
+
+Web preview verified working
+
+App edited and rendered correctly
+
+Reset command observed and documented
